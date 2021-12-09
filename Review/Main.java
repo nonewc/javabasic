@@ -247,37 +247,128 @@
 
 // }
 
-import java.util.Calendar;
-class Main {
+// import java.util.Calendar;
+// class Main {
 
-  public static void main(String[] args){
+//   public static void main(String[] args){
 
-    int month = Calendar.getInstance().get(Calendar.MONTH) + 1;
-    String season = "";
+//     int month = Calendar.getInstance().get(Calendar.MONTH) + 1;
+//     String season = "";
 
-    switch (month) {
+//     switch (month) {
 
-      case 12: case 1: case 2:
-      season = "겨울";
-      break;
+//       case 12: case 1: case 2:
+//       season = "겨울";
+//       break;
 
-      case 3: case 4: case 5:
-      season = "봄";
-      break;
+//       case 3: case 4: case 5:
+//       season = "봄";
+//       break;
 
-      case 6: case 7: case 8:
-      season = "여름";
-      break;
+//       case 6: case 7: case 8:
+//       season = "여름";
+//       break;
 
-      case 9: case 10: case 11:
-      season = "가을";
-      break;
+//       case 9: case 10: case 11:
+//       season = "가을";
+//       break;
 
-    }
+//     }
 
-    System.out.println("지금은" + month + "월이고," + season + "입니다.");
+//     System.out.println("지금은" + month + "월이고," + season + "입니다.");
 
 
-  }
+//   }
 
-}
+// }
+
+// import java.util.Calendar;
+// class Main{
+
+//   public static void main(String[] agrs){
+
+//     int month = Calendar.getInstance().get(Calendar.MONTH) + 1;
+//     String season = "";
+
+//     if(month < 3) {
+//       season="겨울";
+//     }
+
+//     if(month < 7){
+//       season="봄";
+//     }
+
+//     if(month< 10){
+//       season="여름";
+//     }
+
+//     if(month<12){
+//       season = "가을";
+//     } else {
+//       season = "겨울";
+//     }
+//   System.out.println(season);
+
+//   }
+
+// }
+
+/*************** 반복문 ******************/
+
+// }public class Main {
+
+//   public static void main(String[] args){
+
+//     int i = 0;
+
+//     while(i < 10) {
+//         i++;
+//       if(i % 2 == 0){
+//         continue;
+//       }
+
+//       System.out.println(i);
+
+      
+//     }
+
+//   }
+
+// }
+
+
+// public class Main {
+
+//   public static void main(String[] args){
+
+//     int sum = 0;
+
+//     for(int i = 0 ; i <= 100 ; i++){
+
+//       if(i%2 == 0){
+//         continue;
+//       }
+
+//       sum = sum + i;
+
+//     }
+
+//     System.out.println(sum);
+
+//   }
+
+// }
+
+// public class Main {
+
+//   public static void main(String[] args){
+
+//     int[] Score = {70,80,90,100,60,70};
+
+//     for (int num: Score){
+//     System.out.println(num);  
+
+//     }
+//   }
+
+// }
